@@ -3,9 +3,9 @@ package javaCampDay2Homework;
 public class Main {
 
 	public static void main(String[] args) {
-		Course course1 = new Course(1,"Yazilim Gelistirici Yetistirme Kampi (C# + ANGULAR)","Engin Demirog");
-		Course course2 = new Course(2,"Yazilim Gelistirici Yetistirme Kampi(JAVA + REACT)","Engin Demirog");
-		Course course3 = new Course(3,"Programlamaya Giris icin Temel Kurs","Engin Demirog");
+		Course course1 = new Course(1,"Yazilim Gelistirici Yetistirme Kampi (C# + ANGULAR)","XYZ Teacher");
+		Course course2 = new Course(2,"Yazilim Gelistirici Yetistirme Kampi(JAVA + REACT)","XYZ Teacher");
+		Course course3 = new Course(3,"Programlamaya Giris icin Temel Kurs","XYZ Teacher");
 		
 		Course[] courses = {course1,course2,course3};
 		
