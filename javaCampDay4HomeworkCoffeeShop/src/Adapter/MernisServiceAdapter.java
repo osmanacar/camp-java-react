@@ -15,11 +15,11 @@ public class MernisServiceAdapter implements CustomerCheckService {
 
 		try {
 			proxyResult = kpsPublicSoapProxy.TCKimlikNoDogrula(
-													Long.parseLong(customer.nationalityId),
-													customer.firstName.toUpperCase(),
-													customer.lastName.toUpperCase(),
-													customer.dateOfBirth.getYear()
-																);
+					Long.parseLong(customer.nationalityId),
+					customer.firstName.toUpperCase(),
+					customer.lastName.toUpperCase(),
+					customer.dateOfBirth.getYear()
+					);
 		} catch (Exception e) {
 			System.out.println("Not a valid person");
 		}
