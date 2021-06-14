@@ -3,6 +3,7 @@ package layeredDemo.entities.concretes;
 import layeredDemo.entities.abstracts.Entity;
 
 public class Product implements Entity{
+	
 	private int id;
 	private int categoryId;
 	private String name;

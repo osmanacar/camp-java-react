@@ -6,6 +6,7 @@ import layeredDemo.dataAccess.abstracts.ProductDao;
 import layeredDemo.entities.concretes.Product;
 
 public class HibernateProductDao implements ProductDao {
+	
 
 	@Override
 	public void add(Product product) {

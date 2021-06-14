@@ -10,6 +10,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		// ToDo: Spring IoC ile iyilestirilecek
+		
 		ProductService productService = new ProductManager(new HibernateProductDao(),new JLoggerManagerAdapter());
 		
 		Product product = new Product(1,2,"Cilek",15,52);
